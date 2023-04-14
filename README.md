@@ -1,0 +1,1 @@
+# amogus-aim-trainer
