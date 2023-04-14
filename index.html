@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <script> 
+        function rick(){
+            window.open("https://www.youtube.com/watch?v=xvFZjo5PgG0");   
+        }
+    </script>
+</head>
+
+<body>
+    <div id="menu">
+        <div>
+            <button id="rick" onclick="rick()">
+                Click me...
+            </button>
+        </div>
+        
+        <h1 id = "title">Amogus Aim Trainer</h1>
+        
+        <img src="Amogus.png" style="width:137px;height:163px;" class="img-center">
+        
+        <h2 id = "intro">Click on the amogus to gain points within the time limit!</h2>
+        
+        <div class="button-center">
+            <button class="button" onclick="game()">Start</button>
+        </div>  
+    </div>
+
+    <div id="game">
+        <h2 id="clock">Timer: <span id="timer">30</span></h2>
+        
+        <h2 id="display">Amogus count: <span id="counter">0</span></h2>
+
+        <button id="button" onclick="moveButton()">
+            <img src="Amogus.png" style="width:69px;height:82px;">
+        </button>
+    </div>
+
+    <div id="end">
+        <h2 id="message">Time is up!</span></h2>
+    
+        <h2 id="score">Score: <span id="count"></span></h2>
+        
+        <div class="button-center">
+            <button class="button" onclick="menu()">Menu</button>
+        </div>    
+    </div>
+
+</body>
+</html>
