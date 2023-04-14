@@ -1,1 +1,1 @@
-# amogus-aim-trainer
+# sus
